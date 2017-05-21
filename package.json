@@ -1,19 +1,20 @@
 {
-  "name": "omp-react-ui",
-  "description": "A React implementation of the Open Media Portal API",
+  "name": "omp-riot-ui",
   "version": "0.0.1",
-  "private": true,
+  "description": "A React implementation for consumption of the Open Media Portal API",
+  "repository": "git@github.com:OpenMediaPortal/omp-react-ui.git",
+  "license": "BSD-3-Clause",
   "dependencies": {
-    "gulp": "3.9.x",
-    "gulp-clean": "0.3.x",
-    "gulp-clean-css": "2.0.x",
-    "gulp-concat": "2.6.x",
-    "gulp-sass": "2.2.x",
-    "gulp-uglify": "1.5.x",
-    "gulp-util": "3.0.x"
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.0.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7"
   },
   "scripts": {
     "start": "./node_modules/gulp/bin/gulp.js",
-    "automate": "./node_modules/gulp/bin/gulp.js automate"
+    "watch": "./node_modules/gulp/bin/gulp.js automate"
   }
 }
